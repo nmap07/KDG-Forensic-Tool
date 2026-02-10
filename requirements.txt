@@ -1,0 +1,35 @@
+# Forensic Timeline Extraction & Analysis System
+# Python Dependencies
+
+# Core Data Analysis
+pandas>=2.0.0
+
+# Digital Forensics Library
+# The Sleuth Kit Python bindings for disk image analysis
+pytsk3>=20230125
+
+# Note: pytsk3 requires The Sleuth Kit (TSK) libraries to be installed
+
+# Installation Instructions:
+# 
+# Linux (Debian/Ubuntu):
+#   sudo apt-get update
+#   sudo apt-get install libtsk-dev python3-dev build-essential
+#   pip install -r requirements.txt
+#
+# Linux (Fedora/RHEL):
+#   sudo dnf install libtsk-devel python3-devel gcc
+#   pip install -r requirements.txt
+#
+# macOS:
+#   brew install sleuthkit
+#   pip install -r requirements.txt
+#
+# Windows:
+#   Download pre-built pytsk3 wheel from:
+#   https://github.com/py4n6/pytsk/releases
+#   pip install pytsk3-<version>-cp<python_version>-win_amd64.whl
+#   pip install pandas
+#
+# Verify Installation:
+#   python -c "import pytsk3, pandas; print('✓ All dependencies installed')"
