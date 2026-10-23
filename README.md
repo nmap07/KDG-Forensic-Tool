@@ -6,7 +6,7 @@ This system consists of three integrated components:
 
 1. **Extractor.py** - Extracts filesystem metadata and timestamps from disk images
 2. **Analyser.py** - Analyzes timeline data and detects suspicious patterns
-3. **Main.py** - Orchestrates the complete workflow
+3. **Main.py** - Orchestrates the complete workflow 
 
 ## 🚀 Quick Start
 
