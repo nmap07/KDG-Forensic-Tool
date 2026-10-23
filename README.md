@@ -1,5 +1,5 @@
 # KDG-Forensic-Tool
-A Forensic tool to parse,extract and recreate timeline of a disk image of a EXT4 File System
+A Forensic tool to parse,extract and recreate timeline of a disk image of a EXT4 File System(current status)
 ## 🎯 Overview
 
 This system consists of three integrated components:
